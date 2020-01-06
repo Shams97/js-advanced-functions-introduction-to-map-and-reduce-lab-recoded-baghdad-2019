@@ -1,6 +1,10 @@
 // Your code here
 function mapToNegativize(sourceArray){
-  
+    let r = []
+  for (let i = 0; i < src.length; i++ ) {
+    r.push(-1 * src[i])
+  }
+  return r
 }
 
 function mapToNoChange(sourceArray){
