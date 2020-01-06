@@ -1,5 +1,5 @@
 // Your code here
-function mapToNegativize(sourceArray){
+function mapToNegativize(src){
     let r = []
   for (let i = 0; i < src.length; i++ ) {
     r.push(-1 * src[i])
@@ -7,13 +7,19 @@ function mapToNegativize(sourceArray){
   return r
 }
 
-function mapToNoChange(sourceArray){
-  
+function mapToNoChange(src){
+   let r = []
+  for (let i = 0; i < src.length; i++ ) {
+    r.push(src[i])
+  }
+  return r
   
   
 }
-function mapToDouble(sourceArray){}
-function mapToSquare(sourceArray){}
+function mapToDouble(src){
+  
+}
+function mapToSquare(src){}
 
 function reduceToTotal(sourceArray, startingPoint){}
 function reduceToAllTrue(sourceArray){}
