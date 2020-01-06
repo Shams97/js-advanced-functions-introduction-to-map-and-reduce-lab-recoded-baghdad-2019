@@ -1,6 +1,9 @@
 // Your code here
-mapToNegativize(sourceArray)
-mapToNoChange(sourceArray)
-mapToDouble(sourceArray)
-mapToSquare(sourceArray)
+function mapToNegativize(sourceArray){}
+function mapToNoChange(sourceArray){}
+function mapToDouble(sourceArray){}
+function mapToSquare(sourceArray){}
 
+function reduceToTotal(sourceArray, startingPoint){}
+function reduceToAllTrue(sourceArray){}
+function reduceToAnyTrue(sourceArray){}
